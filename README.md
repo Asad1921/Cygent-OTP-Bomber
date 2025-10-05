@@ -42,6 +42,13 @@ Follow these steps to download and set up the tool:
    ```bash
    pip install -r requirements.txt
    ```
+2. **If You are Facing Error of Proxy Then ENter Following Commands**:
+  ```bash
+   python3 -m venv venv
+   ```
+  ```bash
+   source venv/bin/activate
+   ```
 
 ---
 
