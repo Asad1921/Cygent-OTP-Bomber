@@ -43,11 +43,20 @@ Follow these steps to download and set up the tool:
    pip install -r requirements.txt
    ```
 2. **If You are Facing Error of Proxy Then ENter Following Commands**:
-  ```bash
+   ```bash
    python3 -m venv venv
    ```
-  ```bash
+   ```bash
    source venv/bin/activate
+   ```
+   ```bash
+   echo $http_proxy
+   echo $https_proxy
+   echo $HTTP_PROXY
+   echo $HTTPS_PROXY
+   ```
+   ```bash
+   unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY
    ```
 
 ---
