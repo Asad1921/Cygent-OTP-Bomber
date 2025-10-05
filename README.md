@@ -33,7 +33,7 @@ Follow these steps to download and set up the tool:
 
 1. **Clone the repository**:
    ```bash
-  https://github.com/Asad1921/Cygent-OTP-Bomber.git
+   https://github.com/Asad1921/Cygent-OTP-Bomber.git
    cd Cygent-OTP-Bomber
    ```
 
