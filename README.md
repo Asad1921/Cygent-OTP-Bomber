@@ -33,8 +33,8 @@ Follow these steps to download and set up the tool:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/asharbinkhalil/otpbomer.git
-   cd otpbomber
+  https://github.com/Asad1921/Cygent-OTP-Bomber.git
+   cd Cygent-OTP-Bomber
    ```
 
 2. **Install required libraries**:
@@ -50,15 +50,16 @@ Follow these steps to download and set up the tool:
 Once installed, you can use Cygent OTPbomber with various options to send OTPs to one or more phone numbers. Ensure phone numbers are in the correct format with the country code (e.g., +92 for Pakistan).
 Basic Usage
 Send OTPs to a single phone number:
-python3 core.py +923001234567
+
+# python3 core.py +923001234567
 
 Multiple Phone Numbers
 Send OTPs to multiple numbers directly:
-python3 core.py +923001234567 +923008186777
+# python3 core.py +923001234567 +923008186777
 
 Input from File
 Use a text file (e.g., phones.txt) with one phone number per line:
-python3 core.py --file phones.txt
+# python3 core.py --file phones.txt
 
 Example phones.txt:
 +923001234567
@@ -66,19 +67,19 @@ Example phones.txt:
 
 Multiple Rounds
 Repeat OTP sends multiple times per number (e.g., 3 rounds):
-python3 core.py +923001234567 --rounds 3
+# python3 core.py +923001234567 --rounds 3
 
 Delay Between Rounds
 Add a delay (in seconds) between rounds to reduce rate limits:
-python3 core.py +923001234567 --rounds 3 --delay 5
+# python3 core.py +923001234567 --rounds 3 --delay 5
 
 Single Website
 Test a specific website (e.g., priceoye):
-python3 core.py +923001234567 --site priceoye
+# python3 core.py +923001234567 --site priceoye
 
 Combined Example
 Send OTPs to multiple numbers from a file and command line, with 2 rounds and a 10-second delay:
-python3 core.py +923001234567 --file phones.txt --rounds 2 --delay 10
+# python3 core.py +923001234567 --file phones.txt --rounds 2 --delay 10
 
 Disable Clear Screen
 Prevent clearing the terminal between runs:
