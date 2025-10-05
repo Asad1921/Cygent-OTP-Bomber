@@ -27,8 +27,8 @@ Installation
 Follow these steps to set up Cygent OTPbomber:
 
 Clone the repository:
-git clone https://github.com/asharbinkhalil/otpbomber.git
-cd otpbomber
+git clone https://github.com/Asad1921/Cygent-OTP-Bomber.git
+cd Cygent-OTP-Bomber
 
 
 Create a virtual environment (recommended):
