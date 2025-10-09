@@ -45,8 +45,8 @@ def get_functions(modules, args=None):
 
 def credit():
     """Print Credit"""
-    print('Twitter : @asharbinkhalil')
-    print('Github : https://github.com/asharbinkhalil/otpbomber')
+    print('Twitter : @Asad')
+    print('Github : https://github.com/Asad1921/Cygent-OTP-Bomber.git')
     print('Repositry Structure Inspired by https://github.com/megadose/holehe')
 
 def print_result(data, phone, start_time, websites, clear_screen):
