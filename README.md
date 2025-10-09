@@ -71,7 +71,7 @@ Send OTPs to a single phone number:
 
 Multiple Phone Numbers
 Send OTPs to multiple numbers directly:
-# python3 core.py +923001234567 +923008186777
+# python3 core.py +923001234567 +923009186777
 
 Input from File
 Use a text file (e.g., phones.txt) with one phone number per line:
