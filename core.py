@@ -88,6 +88,14 @@ async def launch_module(module, phone, client, out):
         out.append({"name": name, "domain": name, "frequent_rate_limit": False, "rateLimit": False, "sent": False, 'error': True})
 
 async def maincore():
+    # Add 5-minute delay with countdown
+    print("Script will start in 5 minutes...")
+    for i in range(300, 0, -1):  # Countdown from 300 seconds (5 minutes)
+        mins, secs = divmod(i, 60)
+        print(f"Starting in {mins:02d}:{secs:02d}", end="\r")
+        await trio.sleep(1)
+    print("Starting SMS bombing...")
+
     parser = ArgumentParser(description=f"wtf v{__version__}")
     parser.add_argument("phone", nargs='*', metavar='PHONE', help="Target phone numbers (multiple allowed)")
     parser.add_argument("--no-clear", default=False, required=False, action="store_true", dest="noclear", help="Do not clear the terminal to display the results")
