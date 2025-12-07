@@ -89,8 +89,8 @@ async def launch_module(module, phone, client, out):
 
 async def maincore():
     # Add 5-minute delay with countdown
-    print("Script will start in 5 minutes...")
-    for i in range(300, 0, -1):  # Countdown from 300 seconds (5 minutes)
+    print("Script will start in 2 minutes...")
+    for i in range(120, 0, -1):  # Countdown from 300 seconds (5 minutes)
         mins, secs = divmod(i, 60)
         print(f"Starting in {mins:02d}:{secs:02d}", end="\r")
         await trio.sleep(1)
