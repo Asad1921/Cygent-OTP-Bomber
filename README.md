@@ -31,18 +31,7 @@ To use this tool, ensure you have the following installed:
 
 Follow these steps to download and set up the tool:
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Asad1921/Cygent-OTP-Bomber.git
-   cd Cygent-OTP-Bomber
-   ```
-
-2. **Install required libraries**:
-   Run the following command to install all dependencies.
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. **If You are Facing Error of Proxy Then ENter Following Commands**:
+1. **First of all you have to create a virtual environment then you will clone repository, For now run below commands in your linux(ANY) terminal**:
    ```bash
    python3 -m venv venv
    ```
@@ -58,6 +47,18 @@ Follow these steps to download and set up the tool:
    ```bash
    unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY
    ```
+2. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Asad1921/Cygent-OTP-Bomber.git
+   cd Cygent-OTP-Bomber
+   ```
+
+3. **Install required libraries**:
+   Run the following command to install all dependencies.
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 
 ---
 
