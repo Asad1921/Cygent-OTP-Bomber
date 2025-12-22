@@ -1,5 +1,6 @@
 # Cygent OTP Bomber 💣
-![](https://files.catbox.moe/vkstnk.jpeg)
+![](<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/931a3d9e-e85f-407c-8f6a-8d5a568b54a8" />
+)
 
 ## Overview
 
@@ -37,12 +38,6 @@ Follow these steps to download and set up the tool:
    ```
    ```bash
    source venv/bin/activate
-   ```
-   ```bash
-   echo $http_proxy
-   echo $https_proxy
-   echo $HTTP_PROXY
-   echo $HTTPS_PROXY
    ```
    ```bash
    unset http_proxy https_proxy HTTP_PROXY HTTPS_PROXY
