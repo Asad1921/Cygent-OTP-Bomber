@@ -45,7 +45,8 @@ Follow these steps to download and set up the tool:
 2. **Clone the repository**:
    ```bash
    git clone https://github.com/Asad1921/Cygent-OTP-Bomber.git
-   cd Cygent-OTP-Bomber
+   mv Cygent-OTP-Bomber otpbomber
+   cd otpbomber
    ```
 
 3. **Install required libraries**:
